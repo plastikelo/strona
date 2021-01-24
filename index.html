@@ -1,0 +1,150 @@
+<html>
+<head>
+  <title>HEKO - Twój ekologiczny świat!</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="ikona.png">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <script type="text/javascript">
+    function myAction(){
+      var tekst = "Na twój adres email zostanie wysłana propozycja rozwiązań.";
+      document.getElementById("message").innerHTML = tekst
+    }
+  </script>
+</head>
+    
+<body>
+    
+  <h1 class="logo">HEKO</h1>
+
+  <div class="content">
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="index.html">Strona główna</a>
+        </li>
+        <li>
+          <a href="fundusze.html">Fundusze</a>
+        </li>
+        <li>
+          <a href="artykuly.html">Artykuły dla domu</a>
+        </li>
+        <li>
+          <a href="ciekawostki.html">Dowiedz się więcej!</a>
+        </li>
+        <li>
+          <a href="specjalisci.html">Nasi specjaliści</a>
+        </li>
+      </ul>    
+    </nav>   
+  </div> 
+    
+  <div class="tresc"> 
+    <h2>Czym się zajmujemy?</h2>
+    Pomagamy w szerzeniu ekologicznych rozwiązań dla mieszkań, gospodarstw domowych oraz małych firm.</br>
+    Wypełnij nasz formularz aby dowiedzieć się jakie zastosowania przyniosą korzyści Tobie i Planecie!</br>
+    Nasi specjaliści dostosują ekologię do Twojej potrzeby.</br>
+
+    <h1>Chcesz zobaczyć jakie rozwiązania możesz zastosować we własnej przestrzeni?</h1></br>
+    <h2> Zapraszamy do uzupełnienia formularza poniżej!</h2>
+
+  </div>
+  </br>
+  
+    <section>
+    <form>              
+      <div class="formularz">      
+        <table>          
+          <h1>Jaki rodzaj zabudowania posiadasz?</h1>
+          <tr>
+            <td><figure> <img src="flat1.jpg" width="250" height="350" alt="flat" title="flat"/><figcaption>Mieszkanie</figcaption></figure></td>
+            <td><figure> <img src="office.jpg" width="250" height="350" alt="office" title="office"/><figcaption>Biuro</figcaption></figure></td>
+            <td><figure> <img src="home.jpg" width="250" height="350"alt="home" title="home"/><figcaption>Dom</figcaption></figure></td>                         
+          </tr>
+          
+          <tr>
+            <td> <input type="checkbox" name="zabudowanie" value="wartosc"></td>
+            <td> <input type="checkbox" name="zabudowanie" value="wartosc"></td>
+            <td> <input type="checkbox" name="zabudowanie" value="wartosc"></td>                         
+          </tr>
+        </table>
+              
+        <table>        
+          <h1>Które elementy chciałbyś zagospodarować?</h1>
+          <tr>
+            <td><figure> <img src="balcony.jpg" width="250" height="350" alt="balcony" title="balcony"/><figcaption>Balkony</figcaption></figure></td>
+            <td><figure> <img src="windowsill.jpg" width="250" height="350" alt="windowsill" title="windowsill"/><figcaption>Parapety</figcaption></figure></td>
+            <td><figure> <img src="inside1.jpg" width="250" height="350" alt="inside" title="windowsill"/><figcaption>Wnętrza</figcaption></figure></td>                       
+          </tr>
+          <tr>
+            <td> <input type="checkbox" name="elementy" value="wartosc"></td>
+            <td> <input type="checkbox" name="elementy" value="wartosc"></td>  
+            <td> <input type="checkbox" name="elementy" value="wartosc"></td>                                                         
+          </tr>
+        </table>
+                  
+        <table>     
+          <h1>Jaki typ dachu posiadasz?</h1>
+            <tr>
+              <td><figure> <img src="roof.jpg" width="250" height="350" alt="roof" title="roof"/><figcaption>Płaski</figcaption></figure></td>
+              <td><figure> <img src="roof1.jpg" width="250" height="350" alt="roof1" title="roof1"/><figcaption>Nachylony</figcaption></figure></td>  
+            </tr>
+            <tr>
+              <td> <input type="checkbox" name="dach" value="wartosc"></td>
+              <td> <input type="checkbox" name="dach" value="wartosc"></td>  
+            </tr>
+        </table>
+                
+        <table>
+          <h1>Czy dysponujesz otwartą przestrzenią?</h1>
+          <tr>
+            <td><figure> <img src="terrace.jpg" width="250" height="350" alt="terrace" title="terrace"/><figcaption>Taras</figcaption></figure></td>
+            <td><figure> <img src="plot.jpg" width="250" height="350" alt="plot" title="plot"/><figcaption>Działka</figcaption></figure></td>                          
+            <td><figure> <img src="alternatywne_zdjecia/purple-window-864295_1920.jpg" width="250" height="350" alt="none" title="none"/><figcaption>Brak</figcaption></figure></td>                          
+          </tr>
+          <tr>
+            <td> <input type="checkbox" name="dzialka" value="wartosc"></td>  
+            <td> <input type="checkbox" name="dzialka" value="wartosc"></td>
+            <td> <input type="checkbox" name="dzialka" value="wartosc"></td>
+           </tr>
+        </table>
+      </br></br> 
+      
+      <p>
+        <form >
+            Twój adres email:
+            <input type="text" name="email"><br/><br/><br/>
+            <input type="button" value="WYŚLIJ" style="width: 100px; height:40px"
+            onclick="myAction()">
+        </form>
+      </p>
+      <p id="message"> </p>
+      </div> 
+   </form>
+  </section> 
+   
+
+   
+  <div class="footer">
+    <footer>
+      <table class="media">
+        <tr>
+          <td>
+          <a href=###><img src="media/facebook-2423669_640.png" width="60" height="60"/></a>
+          <a href=###><img src="media/instagram-2398773_640.png" width="60" height="60"/></a>
+          <a href=###><img src="media/pinterest-2680640_640 (1).png" width="60" height="60"/></a><br/>
+          </td>
+          <td>
+          Masz pytania? Napisz do nas! <br/>
+          Mail: HEKO@company.pl <br/>
+          Kontakt: 123 456 789 <br/>
+          &copy; 2020 Pu &amp; Do <br/><br/>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </div>
+</body>
+</html>
