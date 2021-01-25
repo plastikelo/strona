@@ -21,7 +21,9 @@ body {background-image: url(pattern.png), url(tło/3.jpg);
 /* Części stałe wszystkich stron*/
 .logo
 {
-    font-size: 30px;
+    font-size: 55px;
+    margin-top: 2,5px;
+    margin-bottom: 2,5px;
 }
 
 h1
@@ -87,7 +89,7 @@ h3
 .menu > li
 {
     float: left;
-    width: 270px;
+    width: 240px;
     height: 40px;
     border-right: 1px dashed green;
     border-left: 1px dashed green;
@@ -248,17 +250,23 @@ figcaption
     border-style: ridge;
     
 }
+/* galeria*/
 .przyklady 
 {   font-size: 20px; 
     padding:50px;
     text-align: center;
     background-color: rgba(253, 255, 251, 0.897);
     margin: 50px 50px 20px 50px;
-   
-
 }
 
-.przyklady img {
+.przyklady img 
+{
     border: dashed 3px green;
-    
+}
+
+.przyklady table
+{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
 }
