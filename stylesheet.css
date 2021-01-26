@@ -152,6 +152,7 @@ h3
     margin: 10px 10px;
     text-align: left;
     padding: 10px;
+    list-style: none;
    
 }
 
@@ -171,6 +172,10 @@ h3
     color: white
 }
 
+.formularz ol
+{
+    list-style: none;
+}
 
 .tresc_1          /*mamy taki a klasE?????*/  /*tak, w funduszach*/ 
 {
