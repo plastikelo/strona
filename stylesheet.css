@@ -297,14 +297,12 @@ input
     margin: 10px 10px 10px 10px;
     display: inline-block;
 }
+.specjalisci {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    font-size: 8px;
+    color:black;
 
-.specjalisci figcaption
-{   
-    padding-bottom: 40px;
-}
-
-.specjalisci figure
-{
-    padding-left: 25px;
-    padding-right: 25px;
-}
+    font-weight: bold;
+} 
