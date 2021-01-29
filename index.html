@@ -11,7 +11,7 @@
     function myAction(){
       var tekst = "Na twój adres email zostanie wysłana propozycja rozwiązań.";
       document.getElementById("message").innerHTML = tekst
-    }
+      }
   </script>
 </head>
     
@@ -19,9 +19,6 @@
   <div class="logo">HEKO</div>
 
   <div class="content">
-  
-
- 
     <nav>
       <ul class="menu">
         <li>
@@ -55,11 +52,10 @@
     <h1>Chcesz zobaczyć jakie rozwiązania możesz zastosować we własnej przestrzeni?</h1></br>
     <h2> Zapraszamy do uzupełnienia formularza poniżej!</h2>
     W odpowiedzi dostaniesz propozycję rozwiązania oraz listę firm znajdujących sie w Twojej okolicy, które ją zrealizują.
-
   </div>
   </br>
   
-    <section>
+  <section>
     <form>              
       <div class="formularz">      
         <table>          
@@ -94,14 +90,14 @@
         <table>     
           <h1>Jaki typ dachu posiadasz?</h1>
           <h4>*Jeśli nie masz pomiń to pytanie.</h4>
-            <tr>
-              <td><figure> <img src="roof.jpg" width="250" height="350" alt="roof" title="roof"/><figcaption>Płaski</figcaption></figure></td>
-              <td><figure> <img src="roof1.jpg" width="250" height="350" alt="roof1" title="roof1"/><figcaption>Nachylony</figcaption></figure></td>  
-            </tr>
-            <tr>
-              <td> <input type="checkbox" name="dach" value="wartosc"></td>
-              <td> <input type="checkbox" name="dach" value="wartosc"></td>  
-            </tr>
+          <tr>
+            <td><figure> <img src="roof.jpg" width="250" height="350" alt="roof" title="roof"/><figcaption>Płaski</figcaption></figure></td>
+            <td><figure> <img src="roof1.jpg" width="250" height="350" alt="roof1" title="roof1"/><figcaption>Nachylony</figcaption></figure></td>  
+          </tr>
+          <tr>
+            <td> <input type="checkbox" name="dach" value="wartosc"></td>
+            <td> <input type="checkbox" name="dach" value="wartosc"></td>  
+          </tr>
         </table>
                 
         <table>
@@ -115,33 +111,32 @@
             <td> <input type="checkbox" name="dzialka" value="wartosc"></td>  
             <td> <input type="checkbox" name="dzialka" value="wartosc"></td>
             <td> <input type="checkbox" name="dzialka" value="wartosc"></td>
-           </tr>
+          </tr>
         </table>
-      </br></br> 
+        </br></br> 
       
-      <p>
-      <div class="dane">
-        <form >
-            Twój adres email:
-            <input type="text" name="email"><br/><br/><br/>
-            Miasto:
-            <input type="text" name="miasto"><br/><br/><br/>
-            Województwo: 
-            <input type="text" name="wojewodztwo"><br/><br/><br/>
-            Jaki budżet chcesz przeznaczyć: 
-            <input type="text" name="budget"><br/><br/><br/>
-            <input type="button" value="WYŚLIJ" style="width: 100px; height:40px"
-            onclick="myAction()">
-        </form>
-      </div>  
-      </p>
-      <p id="message"> </p>
-      </div> 
-   </form>
+        <p>
+          <div class="dane">
+            <form >
+              Twój adres email:
+              <input type="text" name="email"><br/><br/><br/>
+              Miasto:
+              <input type="text" name="miasto"><br/><br/><br/>
+              Województwo: 
+              <input type="text" name="wojewodztwo"><br/><br/><br/>
+              Jaki budżet chcesz przeznaczyć: 
+              <input type="text" name="budget"><br/><br/><br/>
+              <input type="button" value="WYŚLIJ" style="width: 100px; height:40px"
+              onclick="myAction()">
+            </form>
+          </div>  
+        </p>
+        <p id="message"> </p>
+      </div>
+    </form>
   </section> 
    
 
-   
   <div class="footer">
     <footer>
       <table class="media">
