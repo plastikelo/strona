@@ -1,6 +1,6 @@
 body 
 {
-    background-image: url(pattern.png), url(tło/3.jpg);
+    background-image: url(tło/pattern.png), url(tło/3.jpg);
     background-color: transparent;
     background-repeat: repeat, no-repeat;
     background-position: center, center;
