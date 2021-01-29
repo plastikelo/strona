@@ -1,4 +1,6 @@
-body {background-image: url(pattern.png), url(tło/3.jpg);
+body 
+{
+    background-image: url(pattern.png), url(tło/3.jpg);
     background-color: transparent;
     background-repeat: repeat, no-repeat;
     background-position: center, center;
@@ -18,6 +20,7 @@ body {background-image: url(pattern.png), url(tło/3.jpg);
 .My-Color-Theme-4-rgba { color: rgba(199, 156, 119, 1); }
 .My-Color-Theme-5-rgba { color: rgba(0, 0, 0, 1); }
 
+
 /* Części stałe wszystkich stron*/
 .logo
 {
@@ -29,22 +32,19 @@ body {background-image: url(pattern.png), url(tło/3.jpg);
     font-family: 'Montserrat';
     font-weight:bold;
     margin-bottom: 6px;
-
 }
 
 h1
-{    color: rgb(18, 19, 18);
+{    
+    color: rgb(18, 19, 18);
     padding: 20px 20px;
     text-shadow: -1px 0 rgba(245, 245, 220, 0.685), 0 1px  rgba(245, 245, 220, 0.685),
       1px 0 rgba(245, 245, 220, 0.685), 0 -1px  rgba(245, 245, 220, 0.685);
-   
-
 }
 
 h2
 {    
     color:black;
-   
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -52,11 +52,11 @@ h2
 
 h3
 {
-     text-align: center;
-     font-size: 25px;
-     color:rgb(28, 73, 50);
+    text-align: center;
+    font-size: 25px;
+    color:rgb(28, 73, 50);
     text-shadow: -1px 0 rgba(245, 245, 220, 0.685), 0 1px  rgba(245, 245, 220, 0.685),
-      1px 0 rgba(245, 245, 220, 0.685), 0 -1px  rgba(245, 245, 220, 0.685);
+        1px 0 rgba(245, 245, 220, 0.685), 0 -1px  rgba(245, 245, 220, 0.685);
 
 }
 
@@ -152,6 +152,7 @@ h3
     text-align: left;
 }
 
+
 /*fundusze*/
 .fundusze_list 
 {
@@ -162,9 +163,11 @@ h3
    
 }
 
-.fundusze_list ol{
+.fundusze_list ol
+{
     list-style-type: none;
 }
+
 .fundusze_list li
 {  
     text-align: center;
@@ -178,17 +181,18 @@ h3
     color: white
 }
 
-.formularz ol
+.formularz_2 ol
 {
     list-style: none;
 }
 
-.tresc_1          /*mamy taki a klasE?????*/  /*tak, w funduszach*/ 
+.formularz_2
 {
     padding:100px;
     text-align: center;
-    background-color: rgba(206, 253, 168, 0.507);
-    margin: 50px 50px 20px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
 }
 
 
@@ -223,6 +227,7 @@ figcaption
     margin-right: 50px;
     margin-top: 10px;
 }
+
 input
 {
     width: 300px;
@@ -231,21 +236,24 @@ input
     border: 2px solid #ddd;
     border-radius: 5px;
     font-size: 20px;
-
 }
+
 .dane
 {
     width: 340px;
     margin-left: auto;
     margin-right: auto;
 }
-/* ciekawostki*/
 
-.ciekawostki  {
+
+/* ciekawostki*/
+.ciekawostki  
+{
     list-style-type: none;
     margin-top: 40px;
     color: white;
 }
+
 .ciekawostki li
 {  
     text-align: center;
@@ -258,13 +266,15 @@ input
     border-radius: 25px;
 }
 
-/*artykuly*/
 
-.artykuly  {
+/*artykuly*/
+.artykuly  
+{
     list-style-type: none;
     margin-top: 40px;
     color: white;
 }
+
 .artykuly li
 {  
     text-align: center;
@@ -275,8 +285,9 @@ input
     border-color: beige;
     background-color:  rgba(54, 141, 76, 0.651);
     border-style: ridge;
-    
 }
+
+
 /* galeria*/
 .przyklady 
 {   font-size: 20px; 
@@ -297,12 +308,13 @@ input
     margin: 10px 10px 10px 10px;
     display: inline-block;
 }
-.specjalisci {
+
+.specjalisci
+{
     text-align: center;
     margin: 10px 10px 10px 10px;
     display: inline-block;
     font-size: 8px;
     color:black;
-
     font-weight: bold;
 } 
